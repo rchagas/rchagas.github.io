@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background-color: #D8D8D8;
+	background: linear-gradient( 90deg, #BDBDBD, #E6E6E6 18%, #E6E6E6 85%,#BDBDBD)
 }
 #header{
 	background: linear-gradient( to bottom, #2E2E2E, #1C1C1C) repeat scroll 0% 0% transparent;
@@ -88,4 +88,58 @@ tr img{
 	width: 200px;
 	padding: 0;
 	margin: 5px;
+}
+/* Contato*/
+#decom{
+	width: 615px;
+	height: 330px;
+}
+
+img[alt="Decom1"]{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:180px;
+	z-index: 1;
+	clip: rect(0px,200px,320px,0px);
+}
+img[alt="Decom2"]{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:380px;
+	z-index: 2;
+	clip: rect(0px,200px,320px,0px);
+}
+img[alt="Decom3"]{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:580px;
+	z-index: 2;
+	clip: rect(0px,200px,320px,0px);
+}
+img[alt="Decom1"]:hover{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:180px;
+	z-index:4;
+	clip: rect(0px,600px,320px,0px);
+}
+img[alt="Decom2"]:hover{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:180px;
+	z-index:5;
+	clip: rect(0px,600px,320px,0px);
+}
+img[alt="Decom3"]:hover{
+	width: 600px;
+	position: absolute;
+	top:464px;
+	left:180px;
+	z-index:6;
+	clip: rect(0px,600px,320px,0px);
 }
